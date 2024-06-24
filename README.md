@@ -1,4 +1,4 @@
-# DERMALYSIS - CAPSTONE PROJECT DOCUMENTATION
+# CAPSTONE PROJECT DOCUMENTATION
 <p align="center">
   <img src="https://github.com/Capstone-Bangkit-Academy-Dermalysis-App/capstone-dermalysis-ml/blob/master/Documentation/About%20Dermalysis.png" alt="Deskripsi Gambar" style="width:100%;">
 </p>
