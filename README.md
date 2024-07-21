@@ -20,7 +20,7 @@ We train InceptionV3 models using image datasets that have been labelled in the 
 | *Learning Rate*              | 0.0001                                                                                                                                    |
 | *Optimizer*                  | Adam                                                                                                                                      |
 | *Batch Size*                 | 32                                                                                                                                       |
-| *Number of Training Epochs*  | 10                                                                                                                                        |
+| *Number of Training Epochs*  | 25                                                                                                                                        |
 | *Input Shape*                | (416, 416, 3)                                                                                                                             |
 | *Data Augmentation Parameters* | rescale=1./255, <br> rotation_range=20,<br> width_shift_range=0.2,<br> height_shift_range=0.2,<br> shear_range=0.2,<br> zoom_range=0.2,<br> fill_mode='nearest',<br> brightness_range=[0.8, 1.2],<br> horizontal_flip=True |
-| *Regularization Techniques*  | layers.Flatten()(last_output),<br> layers.Dense(1024, activation='relu')(x),<br> layers.Dropout(0.2)(x),<br> layers.Dense(10, activation='softmax')(x) |
+| *Regularization Techniques*  | layers.Flatten()(last_output),<br> layers.Dense(1024, activation='relu')(x),<br> layers.Dropout(0.2)(x),<br> layers.Dense(5, activation='softmax')(x) |
